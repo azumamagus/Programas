@@ -39,13 +39,53 @@
                 text-decoration: none;
             }
             
+            h1 a:hover{
+                background-color: #7E9F19;
+                color: #FFF;
+            }
+            .place img{
+                border: 1px solid #7E9F19;
+                float: left;
+                margin: 10px 10px 0 0;
+                padding:  2px;
+            }
+            .clear{
+                clear:both;
+            }
+            .footer{
+                font-size: 12px;
+                text-align: center;
+            }
+            
+            .sidenote{
+                background-color: #FFFBE4;
+                border: 1px solid #C9BC8F;
+                padding: 10px;
+                float: right;
+                width: 260px;
+            }
+            
+            .sidenote h3{
+                font-size: 14px;
+                margin-top: 0;
+            }
+            .sidenote ol{
+                font-size: 12px;
+            }
+            .places{
+                float: left;
+                width: 660px;
+            }
+            
         </style>
     </head>
     <body>
         <div class="container">
+        <div class='places'>
         <h1><a href='' >O que mais gosto em São Paulo</a></h1>
         <div class="place">
         <h2>Passear na Avenidas Paulista</h2>
+        <img src='imagens/paulista.jpg' alt="O céu da avenida Paulista, foto por http://www.flickr.com/photos/jairo_abud">
         <p>
             Um dos principais centros financeiros da cidade, a avenida Paulista
             também possui diversas opções de entretenimento. Endereço do Museu
@@ -58,9 +98,12 @@
             A Avenida Paulista sempre é assunto. O que será que estão falando a respeito no <a href='https://twitter.com/#!/search/Avenida Paulista'
             target='_blank'>Twitter</a>?
         </p>
-        </div>
+            <div class='clear'></div>
+            </div>
         <div class="place">
         <h2>Os Bares da Vila Madalena</h2>
+        <img src='imagens/piola.jpg' alt="A varanda do Armazém Piola,
+                                         foto por Fernando Moraes">
         <p>
             Depois de um dia de trabalho, nada melhor do que um bom chopp, um
             petisco e uma conversa em uma mesa de bar. Opções de sobra na região
@@ -70,9 +113,12 @@
            Veja quais os melhores bares e restaurantes da região no <a href='http://vejasp.abril.com.br/busca?chn=bares&qu=&nbh=Pinheiros%20/%20Vila%20Madalena' target='_blank'>
             Guia da VEJA São Paulo. </a>
         </p>
+        <div class='clear'></div>
         </div>
         <div class="place">
         <h2>O Parque do Ibirapuera</h2>
+        <img src='imagens/ibirapuera.jpg' alt="O Parque do Ibirapuera,
+        por http://www.flickr.com/photos/soldon/">
         <p>
             Um dos cartões postais da cidade, o parque dispõe de mais de 1,5 km{^2}
             de área verde, lagos artificiais e pistas de cooper e ciclismo. E se
@@ -82,6 +128,21 @@
         <p>
             Veja no <a href='http://goo.gl/maps/HoH8' target='_blank'>mapa</a>
         </p>
+            </div>
+            <div class='clear'></div>
+            </div>
+            <div class='sidenote'>
+                <h3>E existem muitos outros lugares interessantes na cidade...</h3>
+                <ol>
+                    <li>O mercado municipal</li>
+                    <li>A Sala São Paulo</li>
+                    <li>Os estádios dos principais imes de futebol da cidade</li>
+                    <li>Diversos museus, como o memorial da américa latina e museu da Língua Portuguesa </li>
+                    <li>E mais!</li>
+                </ol>
+            </div>            
+            <div class='footer clear'>
+                <p>Parte do livro "HTML5 e CSS3 Domine o Futuro."</p>
             </div>
             </div>
             
